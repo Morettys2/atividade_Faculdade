@@ -1,0 +1,72 @@
+footer {
+    width: 940px;
+    padding: 20px 0;
+    color: #333;
+    text-align: center;
+}
+
+.conteiner-rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.rodape-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.logo-section .logo {
+    width: 100px; 
+    height: auto;
+}
+
+.logo-section .slogan {
+    font-size: 14px;
+    color: #666;
+}
+
+.rodape-section h4 {
+    margin-bottom: 10px;
+}
+
+.rodape-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape-section ul li {
+    margin: 5px 0;
+}
+
+.rodape-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.rodape-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #666;
+}
